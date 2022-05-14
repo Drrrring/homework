@@ -1,0 +1,13 @@
+### P11
+
+subnet 1 :  230.1.17.128/26
+
+subnet 2 :  230.1.17.0/25
+
+subnet 3 :  230.1.17.192/28
+
+
+
+### P20
+
+It is not possible to devise such a technique. In order to establish a direct TCP connection between Arnold and Bernard, either Arnold or Bob must initiate a connection to the other. But the NATs covering Arnold and Bob drop SYN packets arriving from the WAN side. Thus neither Arnold nor Bob can initiate a TCP connection to the other if they are both behind NATs.
